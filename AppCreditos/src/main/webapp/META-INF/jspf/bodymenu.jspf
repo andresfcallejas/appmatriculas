@@ -1,0 +1,35 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="${pageContext.servletContext.contextPath}/view/menu.jsp">AppCursos</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="${pageContext.servletContext.contextPath}/view/usuarios.jsp">Usuarios <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="${pageContext.servletContext.contextPath}/view/cursos.jsp">Cursos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" name="accion" value="listar" href="${pageContext.servletContext.contextPath}/UsuariosServlet?accion=listar">Listar Usuarios</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link"  href="${pageContext.servletContext.contextPath}/CursoServlet?accion=listar">Listar Cursos</a>
+                </li>
+       
+
+        </div>
+                
+                 <div >
+                    <a href="#">
+                                 <c:out value="${sessionScope.USUARIO}"/>
+                                 cerrar session:
+                    </a>
+                </div>
+    </nav>
