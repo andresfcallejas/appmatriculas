@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="${pageContext.servletContext.contextPath}/view/paginaa?accion=alistar">Listar Creditos <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="${pageContext.servletContext.contextPath}/view/paginaa?accion=alistar">Listar Creditos <span class="sr-only"></span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="${pageContext.servletContext.contextPath}/view/creditoServlet.jsp">b</a>

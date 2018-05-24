@@ -39,7 +39,7 @@
                         </div>  
                         <div class="form-row">
                             <div class="col">
-                                <input name="txtmonto" type="email" 
+                                <input name="txtmonto" type="text" 
                                        class="form-control" 
                                        placeholder="Monto">
                             </div>
