@@ -18,8 +18,15 @@ public class Materia {
     private double cupoMin;
     private double cupoMax;
 
-    public Materia() {
+    public Materia(String idMateria, String nombre, double numCreditos, double cupoMin, double cupoMax) {
+        this.idMateria = idMateria;
+        this.nombre = nombre;
+        this.numCreditos = numCreditos;
+        this.cupoMin = cupoMin;
+        this.cupoMax = cupoMax;
     }
+
+   
 
     @Override
     public int hashCode() {
