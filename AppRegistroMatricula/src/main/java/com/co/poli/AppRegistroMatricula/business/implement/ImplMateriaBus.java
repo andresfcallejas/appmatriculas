@@ -32,6 +32,7 @@ ImplMateria implmat = new ImplMateria();
     String respuesta = "Curso ya existe";
         Materia matNuevo = obtenerMateria(materia.getIdMateria());
         if (matNuevo == null) {
+            
             respuesta = implmat.crearMateria(materia);
         }
         return respuesta;

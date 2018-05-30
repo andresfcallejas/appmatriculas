@@ -18,4 +18,5 @@ public interface IregistroBusiness {
     String crearRegistro(Registro registro);
    // String modificarCurso(Curso curso);
     String eliminarRegistro(String idRegistro);
+    int countRegitros(String idRegistro);
 }
